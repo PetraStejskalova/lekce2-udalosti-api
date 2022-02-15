@@ -1,3 +1,5 @@
 // tady je místo pro náš program
 
-console.log('Ahoj, jsem nalinkovan.');
+let nadpis = document.querySelector('h1');
+nadpis.classList.add('zluty');
+nadpis.classList.remove('zluty');
