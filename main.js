@@ -11,6 +11,9 @@ function priNajetiNaCtverec() {
     pocitadlo++;
 }
 
+
+// domácí úkol
+
 function setBold(element) {
     element.style.fontWeight = 'bold';
 }
@@ -22,4 +25,9 @@ function setNormal(element) {
 let paragraph = document.querySelector('p');
 function addClass() {
     paragraph.classList.toggle('cerveny');
+}
+
+function changeFontSize() {
+    let computedSize = window.getComputedStyle(paragraph, null).getPropertyValue('font-size');
+    paragraph.style.fontSize = (parseFloat(computedSize) + 1) + 'px';
 }
