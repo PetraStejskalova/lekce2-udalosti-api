@@ -9,9 +9,9 @@
 </head>
 <body>
 
-	<h1>Změna tříd, události</h1>
+	<h1 onclick= "zmenStyl()">Změna tříd, události</h1>
 
-	<div class="ctverecek zluty"></div>
+	<div onmouseover="priNajetiNaCtverec()" class="ctverecek zluty"></div>
 
 	<div class="ctverecek zeleny"></div>
 
@@ -20,6 +20,10 @@
 	<button class="tlacitko">Čudlajs</button>
 
 	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+	<p onmouseover="setBold(this)" onmouseout="setNormal(this)" style="font-size: 16px;">V elipse spí lev.</p>
+
+	<button onclick="poKliknuti()" class="cerveneTlacitko">červený po kliknutí</button>
 
 <script src="main.js"></script>
 
