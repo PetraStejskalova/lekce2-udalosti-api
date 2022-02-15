@@ -19,9 +19,7 @@ function setNormal(element) {
     element.style.fontWeight = 'normal';
 }
 
-function poKliknuti() {
-    let cervena = document.querySelector('.odstavec');
-    cervena.style.color = 'red';
+let paragraph = document.querySelector('p');
+function addClass() {
+    paragraph.classList.toggle('cerveny');
 }
-
-

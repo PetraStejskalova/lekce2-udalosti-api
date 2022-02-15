@@ -115,18 +115,16 @@ li {
 	border-color: green;
 }
 
-
 .aktivni {
 	background-color: cyan;
 	color: black;
 	border-color: blue;
 }
 
-/* .odstavec {
-	font-size: 16px;
-	padding-top: 3rem;
-} */
-
 p {
 	margin-top: 5rem;
+}
+
+.cerveny {
+	color: red;
 }
